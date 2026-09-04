@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Submit an asset service request to QOQRY Co.">
-  <title>Request Service | QOQRY Co.</title>
+  <meta name="description" content="Submit an asset service request to Devtac Demo 108.">
+  <title>Request Service | Devtac Demo 108</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <div class="nav-wrap">
   <div class="container nav">
-    <a class="brand" href="index.html"><span class="brand-mark"></span>QOQRY CO.</a>
+    <a class="brand" href="index.html"><span class="brand-mark"></span>DEVTAC DEMO 108</a>
     <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
@@ -24,161 +25,131 @@
   </div>
 </div>
 
+
 <main>
-  <section class="page-hero">
-    <div class="container">
-      <div class="kicker">Service Request</div>
-      <h1>Tell us what needs attention.</h1>
-      <p>Submit your maintenance or field service request below. Provide the service location and contact details so the request can be routed appropriately.</p>
-    </div>
-  </section>
+<section class="page-hero">
+  <div class="container">
+    <div class="kicker">Service Request</div>
+    <h1>Submit a maintenance request.</h1>
+    <p>Provide the request details, customer information, service address, and territory so the service team can properly route the request.</p>
+  </div>
+</section>
 
-  <section class="section">
-    <div class="container request-shell">
-      <aside class="request-aside">
-        <div class="eyebrow"><span class="dot"></span> QOQRY service desk</div>
-        <h2>Start a service request.</h2>
-        <p class="section-lead" style="font-size:16px;">Use this form for inspection, preventive maintenance, repair, or other asset-related service needs.</p>
+<section class="section">
+  <div class="container request-shell">
+    <aside class="request-aside">
+      <div class="eyebrow"><span class="dot"></span> Demo 108 service desk</div>
+      <h2>Request field service support.</h2>
+      <p class="section-lead" style="font-size:16px;">Use this form for inspections, preventive maintenance, corrective work, or other service needs involving customer assets.</p>
 
-        <div class="request-notes">
-          <div class="request-note">
-            <span class="check">1</span>
-            <div><strong>Describe the request</strong><span class="card-text">Give us a clear summary of the issue or service needed.</span></div>
-          </div>
-          <div class="request-note">
-            <span class="check">2</span>
-            <div><strong>Provide the service location</strong><span class="card-text">This helps determine where the work will be performed.</span></div>
-          </div>
-          <div class="request-note">
-            <span class="check">3</span>
-            <div><strong>Select your territory</strong><span class="card-text">Requests are routed using the available Luzon, Visayas, and Mindanao territories.</span></div>
-          </div>
-        </div>
+      <div class="request-notes">
+        <div class="request-note"><span class="check">1</span><div><strong>Describe the request</strong><span class="card-text">Provide a concise summary of the maintenance or service need.</span></div></div>
+        <div class="request-note"><span class="check">2</span><div><strong>Confirm the location</strong><span class="card-text">Provide the service and billing address details required by the form.</span></div></div>
+        <div class="request-note"><span class="check">3</span><div><strong>Select a territory</strong><span class="card-text">Choose the applicable Devtac Demo 108 service territory.</span></div></div>
+      </div>
 
-        <div class="request-context">
-          Fields marked with <span class="request-required">*</span> are required by the service request form.
-        </div>
-      </aside>
+      <div class="request-context">
+        Fields marked with <span class="request-required">*</span> are required.
+      </div>
+    </aside>
 
-      <section class="request-form-card">
-        <div class="request-form-head">
-          <div class="kicker">Request details</div>
-          <h3>Asset Service Request</h3>
-          <p>Complete the fields below and submit your request.</p>
-        </div>
+    <section class="request-form-card">
+      <div class="request-form-head">
+        <div class="kicker">Request details</div>
+        <h3>Asset Service Request</h3>
+        <p>Complete the required information and submit the request.</p>
+      </div>
 
-        <div id='fsmWebForm' class='fsm-webform-body'>
-          <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-          <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-          <form name='FsmRequestForm' id='FsmRequestForm' accept-charset='UTF-8' enctype="multipart/form-data">
-            <div class="request-fields">
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Summary'>Summary<span style='color:red;'>*</span></label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Summary' name='Summary' required=true></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Company_Name'>Company Name</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Company_Name' name='Company_Name'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Contact_Firstname'>First Name</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Contact_Firstname' name='Contact_Firstname'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Contact_Lastname'>Last Name<span style='color:red;'>*</span></label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Contact_Lastname' name='Contact_Lastname' required=true></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Email'>Email<span style='color:red;'>*</span></label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Email' name='Email' required=true ftype='email'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Phone'>Phone<span style='color:red;'>*</span></label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Phone' name='Phone' required=true></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Service_Street_1'>Service Street 1</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Service_Street_1' name='Service_Street_1'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Service_City'>Service City<span style='color:red;'>*</span></label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Service_City' name='Service_City' required=true></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Service_State'>Service State</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Service_State' name='Service_State'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Service_Country'>Service Country</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Service_Country' name='Service_Country'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Billing_Street_1'>Billing Street 1</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Billing_Street_1' name='Billing_Street_1'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Billing_City'>Billing City<span style='color:red;'>*</span></label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Billing_City' name='Billing_City' required=true></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Billing_State'>Billing State</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Billing_State' name='Billing_State'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Billing_Country'>Billing Country</label></div>
-                <div class='fsm_wf_inp'><input type='text' id='Billing_Country' name='Billing_Country'></div>
-              </div>
-
-              <div class="request-field">
-                <div class='fsm_wf_lbl'><label for='Territory'>Territory<span style='color:red;'>*</span></label></div>
-                <div class='fsm_wf_inp request-select'>
-                  <select id='Territory' name='Territory' style='font-size:12'>
-                    <option value='46179000000378190'>Luzon</option>
-                    <option value='46179000000378254'>Visayas</option>
-                    <option value='46179000000378276'>Mindanao</option>
-                  </select>
-                </div>
-              </div>
-
-            </div>
-
-            <input style='display:none' type='text' id='fsmUniqueKey' value='' name='fsmUniqueKey'></input>
-
-            <div class='fsm_wf_btns'>
-              <input class='fsm_wf_btn' type='button' text='Reset' name='Reset' value='Reset' style='background-color:#f9fafa; color:#55617A' onclick='onResetFsmWebform()'></input>
-              <input class='fsm_wf_btn' type='submit' text='Submit' name='Submit' value='Submit' style='background-color:#089949; color:#FFFFFF'></input>
-            </div>
-
-            <div class="request-hint">Your request will be submitted through the embedded service form.</div>
-          </form>
-        </div>
-      </section>
-    </div>
-  </section>
+      <!-- Embedded Zoho FSM webform -->
+      <div id='fsmWebForm' class='fsm-webform-body'>
+       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+       <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+       <form name='FsmRequestForm' id = 'FsmRequestForm' accept-charset='UTF-8' enctype="multipart/form-data">
+       <table><tr>
+      <td><div class='fsm_wf_lbl'><label for='Summary'>Summary<span style='color:red;'>*</span></label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Summary' name = 'Summary' required= true ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Company_Name'>Company Name</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Company_Name' name = 'Company_Name' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Contact_Firstname'>First Name</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Contact_Firstname' name = 'Contact_Firstname' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Contact_Lastname'>Last Name<span style='color:red;'>*</span></label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Contact_Lastname' name = 'Contact_Lastname' required= true ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Email'>Email<span style='color:red;'>*</span></label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Email' name = 'Email' required= true ftype='email'></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Phone'>Phone<span style='color:red;'>*</span></label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Phone' name = 'Phone' required= true ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Service_Street_1'>Service Street 1</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Service_Street_1' name = 'Service_Street_1' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Service_City'>Service City<span style='color:red;'>*</span></label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Service_City' name = 'Service_City' required= true ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Service_State'>Service State</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Service_State' name = 'Service_State' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Service_Country'>Service Country</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Service_Country' name = 'Service_Country' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Billing_Street_1'>Billing Street 1</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Billing_Street_1' name = 'Billing_Street_1' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Billing_City'>Billing City<span style='color:red;'>*</span></label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Billing_City' name = 'Billing_City' required= true ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Billing_State'>Billing State</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Billing_State' name = 'Billing_State' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Billing_Country'>Billing Country</label></div></td>
+      <td><div class='fsm_wf_inp'><input type='text' id = 'Billing_Country' name = 'Billing_Country' ></input></div></td>
+      </tr> 
+      <tr>
+      <td><div class='fsm_wf_lbl'><label for='Territory'>Territory<span style='color:red;'>*</span></label></div></td>
+      <td><div class='fsm_wf_inp'><select id = Territory name= Territory style='font-size:12'>
+      <option value=26219000000337025>Devtac Demo</option>
+      <option value=26219000000399062>ADT 101</option>
+      <option value=26219000000430358>Leyte Territory</option>
+      <option value=26219000000437240>Metro Manila</option>
+      <option value=26219000000606024>South Luzon</option>
+      </select>
+      </table>
+      <input style='display:none' type='text' id = 'fsmUniqueKey' value='' name = 'fsmUniqueKey'></input><div class = 'fsm_wf_btns'>
+       <input class = 'fsm_wf_btn' type = 'submit' text = 'Submit' name = 'Submit' value = 'Submit' style = 'background-color:#089949; color:#FFFFFF'> </input>
+       <input class = 'fsm_wf_btn' type = 'button' text = 'Reset' name = 'Reset' value = 'Reset' style = 'background-color:#f9fafa; color:#55617A' onclick='onResetFsmWebform()'> </input>
+       </div>
+       </form>
+       </div>
+    </section>
+  </div>
+</section>
 </main>
 
 <footer>
   <div class="container footer-row">
-    <div>© 2026 QOQRY Co. All rights reserved.</div>
-    <div>Asset maintenance. Simplified.</div>
+    <div>© 2026 Devtac Demo 108. All rights reserved.</div>
+    <div>Asset maintenance made easier.</div>
   </div>
 </footer>
-
 <script src="script.js"></script>
+
 <Script>
 document.getElementById("fsmWebForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the default form submission
@@ -230,7 +201,7 @@ document.getElementById("fsmWebForm").addEventListener("submit", function(event)
       formData.set('locationUrl',window.location.href);
     }
 	   form.getElementsByClassName("fsm_wf_btn").Submit.disabled=true;
-    fetch('https://fsm.zoho.com/fsm/v1/webforms/submit?fsmdigest=zkms115172000000027323a84815c5f9a36dd83a361e7aa003d01e90982f0dbcb5a1001596516913946911f3e82064a10829b9373f3185b68aa2115509c5bfe7d0afab4380511240d28a1f5cafad', {
+    fetch('https://fsm.zoho.com/fsm/v1/webforms/submit?fsmdigest=zkms1151720000000273237a881425defb870d8162ff7c2d15fb6240509595d34c4f73496c3e75b8896874d4f4f1799a4e441b6fe8cd8244d2f76ee00f1a3c4d17f371f08b9627a190c9b126a310', {
         method: 'POST',
         body: formData
     })
@@ -256,5 +227,6 @@ function onResetFsmWebform(){
             window.location.href = 'https://althontomadadevtac-lab.github.io/FSM-Website/request.html';
 }
 </Script>
+
 </body>
 </html>
