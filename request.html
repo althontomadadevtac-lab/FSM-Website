@@ -124,11 +124,11 @@
 <tr>
 <td><div class='fsm_wf_lbl'><label for='Territory'>Territory<span style='color:red;'>*</span></label></div></td>
 <td><div class='fsm_wf_inp'><select id = Territory name= Territory style='font-size:12'>
-<option value=26219000000337025>Devtac Demo</option>
-<option value=26219000000399062>ADT 101</option>
-<option value=26219000000430358>Leyte Territory</option>
-<option value=26219000000437240>Metro Manila</option>
-<option value=26219000000606024>South Luzon</option>
+<option value='26219000000337025'>Devtac Demo</option>
+<option value='26219000000399062'>ADT 101</option>
+<option value='26219000000430358'>Leyte Territory</option>
+<option value='26219000000437240'>Metro Manila</option>
+<option value='26219000000606024'>South Luzon</option>
 </select>
 </table>
 <input style='display:none' type='text' id = 'fsmUniqueKey' value='' name = 'fsmUniqueKey'></input><div class = 'fsm_wf_btns'>
@@ -201,7 +201,7 @@ document.getElementById("fsmWebForm").addEventListener("submit", function(event)
       formData.set('locationUrl',window.location.href);
     }
 	   form.getElementsByClassName("fsm_wf_btn").Submit.disabled=true;
-    fetch('https://fsm.zoho.com/fsm/v1/webforms/submit?fsmdigest=zkms1151720000000273231ec5355d6e69b82cb9463e23e4dc49c2d29736e40a42bbc40c9c88d0a26c849441f85b736fac463f392b133e9e2afda9ed7f2c2cac9899ea82f9ac2cf04e185e270c3e', {
+    fetch('https://fsm.zoho.com/fsm/v1/webforms/submit?fsmdigest=zkms1151720000000273231272f7db7d1acc32b91a52dda40274dc31f63b558a2e0fe7711d60914da24455085a41f5f5b096a3b6d2765c1708317ef8fa15b8992abc2dc20c7f2ce1d1be1d168f59', {
         method: 'POST',
         body: formData
     })
@@ -224,7 +224,7 @@ document.getElementById("fsmWebForm").addEventListener("submit", function(event)
 function onResetFsmWebform(){
 	 let fsmform = document.getElementById('FsmRequestForm');
 	 fsmform.reset();
-            window.location.href = 'https://althontomadadevtac-lab.github.io/FSM-Website/request.html';
+            window.location.href = '*';
 }
 </Script>
 
